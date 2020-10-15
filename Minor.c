@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<GLUT/glut.h>
 #include<stdbool.h>
-
 //Defining global variables.
 double Input[2] = { -50, -50 };
 double Cord[9][4];
