@@ -18,7 +18,7 @@ double SelOption[200][4];
 double Points[90][4];
 int n = 0, q = 0;
 bool top1, top2, bottom1, bottom2, ver1, ver2, left1, left2, right1, right2, hor1, hor2;
-int count[4];
+double count[4];
 int player = 0;
 int point;
 double colors[4][3] = { {1.0, 0.0, 0.0},{0.0,1.0,0.0},{0.0,0.0,1.0},{0.2,0.5,0.8} };
@@ -802,7 +802,7 @@ void Process2() {
 void Interface3()
 {
 
-    glClearColor(0.0, 0.0, 0.0, 1.0);
+    glClearColor(0.0, 0.5, 0.7, 1.0);
     glClear(GL_COLOR_BUFFER_BIT);
     glPointSize(20.0);
 
